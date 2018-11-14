@@ -3,3 +3,12 @@ app.js->index.js->index.jade
 view is jada file
 data come from api
 controller is js?
+
+
+app.js set route for inner api to inner .js file to implement mid function
+angular is triggered by using html tag ng-app in jade file
+angular js file also set URI and action:like $routeProvider.when('/add-video', {...})
+↑ $routeProvider is in dependency ngRoute
+
+How it work when get into home page:
+app set the index.jade as home page, in index.jade there is a angular tag for angular to render. According to different URI, angular will render its part by setting route. So all the part in index remain the same except angular paty(change according to URI)
